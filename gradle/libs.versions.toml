@@ -1,0 +1,9 @@
+[versions]
+commons-imaging = "1.0.0-alpha5"
+junit-jupiter = "5.11.1"
+picocli = "4.7.6"
+
+[libraries]
+commons-imaging = { module = "org.apache.commons:commons-imaging", version.ref = "commons-imaging" }
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit-jupiter" }
+picocli = { module = "info.picocli:picocli", version.ref = "picocli" }
